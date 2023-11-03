@@ -6,3 +6,7 @@ An ABB sensor had been placed on the motor and an ABB platform provides a visual
 
 RNN-LSTM code: this is an ipynb file with the code written that permittes the perdiction of the next sequences of these parameteres. 
 The algorithm is an LSTM neural network. And it was already run to get the same sequence that i used as an example of predictions in the report. 
+
+![55](https://github.com/BekhtiWissal/Predictive_Maintenance_with_LSTM/assets/135755494/da9a09be-a9f3-43ac-b74f-270f7ef9fcdd)
+
+![image](https://github.com/BekhtiWissal/Predictive_Maintenance_with_LSTM/assets/135755494/0ade9856-c445-492a-91ab-724819b0aa45)
