@@ -1,12 +1,32 @@
-This project's purpose was to predict the next values for health parameters of an electrical motor, in order to ensure predictive maintenance using the recurrent neural networks. 
+# Predictive Maintenance with LSTM
 
-You will provided with two documents: 
-Data : an excel file containing all values for health and operational parameters of the motor depending on time. 
-An ABB sensor had been placed on the motor and an ABB platform provides a visualization of the variations of these parameters. 
+Forecast the **next values of key health signals** for an industrial electric motor using a Long Short-Term Memory (LSTM) recurrent neural network—so maintenance can be scheduled before failures cause downtime.
 
-RNN-LSTM code: this is an ipynb file with the code written that permittes the perdiction of the next sequences of these parameteres. 
-The algorithm is an LSTM neural network. And it was already run to get the same sequence that i used as an example of predictions in the report. 
+> This project uses real data from an ABB motor smart sensor deployed on a factory fan. Time-series signals include overall vibration and peak-to-peak vibrations along multiple axes, among others. :contentReference[oaicite:0]{index=0}
 
-![55](https://github.com/BekhtiWissal/Predictive_Maintenance_with_LSTM/assets/135755494/da9a09be-a9f3-43ac-b74f-270f7ef9fcdd)
+---
 
-![image](https://github.com/BekhtiWissal/Predictive_Maintenance_with_LSTM/assets/135755494/0ade9856-c445-492a-91ab-724819b0aa45)
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Repository Structure](#repository-structure)
+- [Data](#data)
+- [Method](#method)
+- [Results](#results)
+- [Quickstart](#quickstart)
+- [Reproduce the Notebook](#reproduce-the-notebook)
+- [Roadmap](#roadmap)
+- [Citations & Acknowledgements](#citations--acknowledgements)
+- [License](#license)
+
+---
+
+## Project Overview
+
+Industrial motors fail in patterns that are visible in **sequential sensor data**. LSTM networks are well-suited to time series because they preserve temporal context.
+
+**Goal:** given recent windows of sensor readings, predict the **next step** (and short horizon) values for the most informative signals, enabling early warnings for abnormal vibration growth that precedes failure. Feature selection relies on correlation analysis to reduce noise and dimensionality. :contentReference[oaicite:1]{index=1}
+
+---
+
+## Repository Structure
+
