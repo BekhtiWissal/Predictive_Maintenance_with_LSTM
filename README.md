@@ -16,4 +16,4 @@ This project predicts the **next values of motor health/operation signals** from
 - The notebook shows **target vs. predicted** overlays for key signals (e.g., overall vibration and peak-to-peak axes).  
 - An accuracy check (after rounding continuous values) is included; results are noted as **limited by small data size**.
 
-## See [Report]([Report/report.pdf](https://github.com/BekhtiWissal/Predictive_Maintenance_with_LSTM/tree/main/Report)) for full details.
+## See [Report](https://github.com/BekhtiWissal/Predictive_Maintenance_with_LSTM/tree/main/Report) for full details.
